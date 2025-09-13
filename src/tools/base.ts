@@ -1,5 +1,5 @@
 import { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { HubSpotService } from "../services/hubspot.js";
+import { HubSpotService } from "../services/hubspot";
 
 export abstract class BaseTool {
   protected hubspotService: HubSpotService;

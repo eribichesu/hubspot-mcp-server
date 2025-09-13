@@ -7,11 +7,11 @@ import {
   ListToolsRequestSchema,
   Tool,
 } from "@modelcontextprotocol/sdk/types.js";
-import { HubSpotService } from "./services/hubspot.js";
-import { ContactTool } from "./tools/contacts.js";
-import { CompanyTool } from "./tools/companies.js";
-import { DealTool } from "./tools/deals.js";
-import { EmailTool } from "./tools/emails.js";
+import { HubSpotService } from "./services/hubspot";
+import { ContactTool } from "./tools/contacts";
+import { CompanyTool } from "./tools/companies";
+import { DealTool } from "./tools/deals";
+import { EmailTool } from "./tools/emails";
 import dotenv from "dotenv";
 
 // Load environment variables

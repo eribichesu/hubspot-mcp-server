@@ -5,7 +5,7 @@
  * This script can be used to manually test the MCP server functionality
  */
 
-import { HubSpotMCPServer } from '../src/index.js';
+import { HubSpotMCPServer } from '../src/index';
 import dotenv from 'dotenv';
 
 // Load environment variables

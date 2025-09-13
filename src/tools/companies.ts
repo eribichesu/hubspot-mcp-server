@@ -1,5 +1,5 @@
 import { Tool } from "@modelcontextprotocol/sdk/types.js";
-import { BaseTool } from "./base.js";
+import { BaseTool } from "./base";
 
 export class CompanyTool extends BaseTool {
   getTools(): Tool[] {
