@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "hubspot": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "/Users/edoardo.ribichesu/vscode/hubspot.mcp",
+      "env": {
+        "HUBSPOT_API_KEY": "your_hubspot_api_key_here"
+      }
+    }
+  }
+}
