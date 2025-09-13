@@ -15,7 +15,7 @@ import { EmailTool } from "./tools/emails";
 import dotenv from "dotenv";
 
 // Load environment variables
-dotenv.config();
+dotenv.config({ quiet: true });
 
 class HubSpotMCPServer {
   private server: Server;
@@ -37,6 +37,7 @@ class HubSpotMCPServer {
 
     this.hubspotService = new HubSpotService({
       apiKey: process.env.HUBSPOT_API_KEY,
+      accessToken: process.env.HUBSPOT_ACCESS_TOKEN,
       clientId: process.env.HUBSPOT_CLIENT_ID,
       clientSecret: process.env.HUBSPOT_CLIENT_SECRET,
     });
